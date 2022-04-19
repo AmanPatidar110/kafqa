@@ -1,0 +1,23 @@
+.counter {
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.count {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0rem 1.5rem;
+    border-radius: 20px;
+    background-color: #5B2C70;
+    color: white;
+    margin: 0 1rem;
+}
+
+.minus, .plus {
+    cursor: pointer;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #E3006B;
+}
