@@ -1,0 +1,51 @@
+
+.bubble1 {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: #E3006B;
+    position: absolute;
+    z-index: -1;
+    left: 10rem;
+    top: -5rem;
+  }
+  
+  .bubble2 {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: #1E0D27;
+    position: absolute;
+    z-index: -10;
+    left: 0;
+    bottom: 0rem;
+    transform: translateX(-50%) ;
+  }
+  
+  .bubble3 {
+    width: 17rem;
+    height: 17rem;
+    border-radius: 50%;
+    background-color: #5B2C70;
+    position: absolute;
+    z-index: -1;
+    right: 5rem;
+    bottom: 1.5rem;
+    /* transform: translateX(-50%) ; */
+  }
+
+
+  .glass {
+    width: 70%;
+    margin: 3rem auto 0rem auto;
+    border: 1px solid black;
+    padding: 2rem 2rem 3rem 2rem;
+    border-radius: var(--primaryBorderRadius);
+    border: 1px solid var(--whiteShadeColor);
+    background: rgba(235, 240, 245, 0.35);
+    box-shadow: 1px 1px 15px 2px rgba(1,1,1,0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(
+        10px
+    ); 
+  }
